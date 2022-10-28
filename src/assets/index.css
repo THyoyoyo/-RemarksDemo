@@ -1,0 +1,196 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5tahoma, arial, \5b8b\4f53;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+code, kbd, pre, samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    image-rendering: -moz-crisp-edges;
+    /* Firefox */
+    image-rendering: -o-crisp-edges;
+    /* Opera */
+    image-rendering: -webkit-optimize-contrast;
+    /*Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    /* IE (non-standard property) */
+}
+
+
+
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 2px;
+
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@font-face {
+    font-family: 'zs1';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_1yvvz09ff8l.eot');
+    /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_1yvvz09ff8l.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('//at.alicdn.com/t/webfont_1yvvz09ff8l.woff2') format('woff2'),
+        url('//at.alicdn.com/t/webfont_1yvvz09ff8l.woff') format('woff'),
+        /* chrome、firefox */
+        url('//at.alicdn.com/t/webfont_1yvvz09ff8l.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('//at.alicdn.com/t/webfont_1yvvz09ff8l.svg#杨任东竹石体-Bold') format('svg');
+    /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: 'zs2';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_yrl72diien.eot');
+    /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_yrl72diien.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('//at.alicdn.com/t/webfont_yrl72diien.woff2') format('woff2'),
+        url('//at.alicdn.com/t/webfont_yrl72diien.woff') format('woff'),
+        /* chrome、firefox */
+        url('//at.alicdn.com/t/webfont_yrl72diien.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('//at.alicdn.com/t/webfont_yrl72diien.svg#杨任东竹石体-Bold') format('svg');
+    /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: 'zs3';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_2vbeknwr1fv.eot');
+    /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_2vbeknwr1fv.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('//at.alicdn.com/t/webfont_2vbeknwr1fv.woff2') format('woff2'),
+        url('//at.alicdn.com/t/webfont_2vbeknwr1fv.woff') format('woff'),
+        /* chrome、firefox */
+        url('//at.alicdn.com/t/webfont_2vbeknwr1fv.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('//at.alicdn.com/t/webfont_2vbeknwr1fv.svg#杨任东竹石体-Bold') format('svg');
+    /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: 'zs4';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_5du9prqrhid.eot');
+    /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_5du9prqrhid.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('//at.alicdn.com/t/webfont_5du9prqrhid.woff2') format('woff2'),
+        url('//at.alicdn.com/t/webfont_5du9prqrhid.woff') format('woff'),
+        /* chrome、firefox */
+        url('//at.alicdn.com/t/webfont_5du9prqrhid.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('//at.alicdn.com/t/webfont_5du9prqrhid.svg#杨任东竹石体-Bold') format('svg');
+    /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: 'zs5';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_w59kg7ehlyn.eot');
+    /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_w59kg7ehlyn.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('//at.alicdn.com/t/webfont_w59kg7ehlyn.woff2') format('woff2'),
+        url('//at.alicdn.com/t/webfont_w59kg7ehlyn.woff') format('woff'),
+        /* chrome、firefox */
+        url('//at.alicdn.com/t/webfont_w59kg7ehlyn.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('//at.alicdn.com/t/webfont_w59kg7ehlyn.svg#杨任东竹石体-Bold') format('svg');
+    /* iOS 4.1- */
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'zs1', 'zs2', 'zs3', 'zs4', 'zs5' !important;
+    font-size: 16px;
+    font-style: normal;
+}
+
+#app {
+    height: 100%;
+    padding: 1px;
+    box-sizing: border-box;
+}
